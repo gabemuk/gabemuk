@@ -10,7 +10,7 @@ Read temperature, display it locally and signal excursions outside the documente
 
 The controller, battery and wiring occupy the base, while the LCD attaches to the removable lid. This packaging exposes the display during use and provides access to the electronics when opened. The open/closed photographs show the resulting assembly; the exploded CAD illustration documents the intended separation of lid and base.
 
-The report code reads A0 using a nominal 5 V ADC reference/conversion, stores Fahrenheit as an integer and triggers alerts for `TempF < 70 || TempF > 75`. It monitors temperature; **it does not regulate temperature or control heating/cooling equipment**. The alert branch includes approximately 2.7 s of delays, which is a code-path observation rather than a measured system response time.
+The report code reads A0 using a nominal 5 V ADC reference/conversion, stores Fahrenheit as an integer and triggers alerts for `TempF < 70 || TempF > 75`. It monitors temperature; **it does not regulate temperature or control heating/cooling equipment**. When alerting, the loop contains 2.7 s of programmed delays: 0.5 s before the condition and 2.2 s inside the alert branch. This is a code-path observation, not a measured system response time.
 
 ## Build and enclosure evidence
 
