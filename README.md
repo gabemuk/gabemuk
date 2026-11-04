@@ -1,25 +1,37 @@
 # Gabriel Mukherjee
 
-I study mechanical engineering at Boston University and build projects across physical design, software, and quantitative analysis. My work includes electromechanical prototypes, a deployed automotive comparison app, and data tools for engineering and business decisions.
+Boston University mechanical engineering student working on CAD and technical drawings, hardware integration and prototyping, and experimental analysis.
 
-**Education:** B.S. Mechanical Engineering, Chemistry minor, Boston University · Expected May 2028
+**B.S. Mechanical Engineering · Expected May 2028 · Chemistry minor in progress**
 
-**Interests:** robotics, automation, manufacturing, software engineering, and applied data analysis
+**Seeking Summer 2027 engineering internships.** Interests: robotics, manufacturing and automation.
 
-## Selected work
+[LinkedIn](https://www.linkedin.com/in/gabriel-mukherjee/) · [Email](mailto:gabemuk@bu.edu) · [Software source](https://github.com/gabemuk/will-i-gap-it)
 
-| Project | What I worked on | Evidence |
+[![Team optical-communication prototype beside a keyboard, with its LCD illuminated.](assets/optical-prototype.png)](projects/optical-communication.md)
+
+EK210 team prototype: Ken Yasuda, Gabe Mukherjee, Jake Spaulding and Matthew Watkins. Printed parts credited to Jake Spaulding in the team BOM.
+
+## Selected engineering work
+
+| Project | Work and result | Evidence |
 | --- | --- | --- |
-| **Will I Gap It?** | Built a closed-course vehicle matchup app with a TypeScript comparison model, shareable matchups, user-submitted results, and data-quality views. Predictions are estimates, not measured performance. | [Code](https://github.com/gabemuk/will-i-gap-it) · [Live app](https://willigapit.com) |
-| **Real estate analytics platform** | Worked on a private team project using PostgreSQL and public municipal data to support parcel-level screening. The [case study](projects/parcel-analytics.md) describes the engineering work at a safe level. | [Sanitized case study](projects/parcel-analytics.md) |
-| **Optical communication system** | Contributed CAD, hardware integration, and testing to a four-person EK210 infrared messaging prototype. The team report records transmission through 13 ft against a 5 ft requirement. | [Project notes](projects/optical-communication.md) |
-| **Arduino Temperature Monitor and Alert Device** | Built and integrated an Arduino-based temperature display with LED/buzzer threshold alerts in a custom enclosure. It does not regulate temperature or control heating/cooling equipment. | [Project notes](projects/temperature-monitor-alert-device.md) |
-| **Chemistry capstone** | Ran and analyzed one catalyst condition in a team synthesis study, including purification and spectral interpretation. | [Project notes](projects/chemistry-capstone.md) |
+| **1. Optical Communication System** | Contributed CAD, hardware integration and testing to a four-person EK210 infrared messaging prototype. Team-reported transmission through 13 ft against a 5 ft requirement. | [Prototype and team CAD](projects/optical-communication.md) |
+| **2. Arduino Temperature Monitor and Alert Device** | Integrated an Arduino-based temperature display with LED/buzzer threshold alerts in a custom enclosure. It does not regulate temperature or control heating/cooling equipment. | [Open/closed build and enclosure CAD](projects/temperature-monitor-alert-device.md) |
+| **3. Mechanical CAD and Technical Drawings** | SolidWorks cap coursework with section and detail views in millimetres. Educational documentation; fabrication and fit are unverified. | [Native model and original drawing](projects/mechanical-cad-drawings.md) |
+| **4. Thermal Model and Boiling Experiment** | Team laboratory records compared with an approximate model. Inferred latent heats fall below the reference; the case examines assumptions and uncertainty. | [Measured traces and model comparison](projects/thermal-model-experiment.md) |
+| **5. Will I Gap It?** | Maintainer of a Next.js/TypeScript vehicle-comparison project with shared and AI-assisted contributions. Heuristic estimates and user-reported results; not a calibrated performance simulator. | [Source and engineering notes](https://github.com/gabemuk/will-i-gap-it) · [Live app](https://willigapit.com) |
 
-## Technical toolkit
+Will I Gap It? is supporting software work. Local v2 correctness fixes and Supabase security work must not be assumed deployed on the linked live app.
 
-- **Mechanical and experimental:** SolidWorks, CAD drawings, 3D printing, laser cutting, electronics integration, measurement, and troubleshooting.
-- **Software and data:** TypeScript, React, Next.js, Python, MATLAB, SQL/PostgreSQL, Supabase, Git, and data analysis.
-- **How I work:** define an objective, build a testable prototype, document decisions, and state the limits of the result.
+## Supporting work
 
-I am interested in Summer 2027 engineering internships. [LinkedIn](https://www.linkedin.com/in/gabriel-mukherjee/) · [Email](mailto:gabemuk@bu.edu)
+- [Real estate analytics platform](projects/parcel-analytics.md) — private team prototype using PostgreSQL and municipal data; sanitized overview only.
+- [Catalyst-dependent Biginelli synthesis](projects/chemistry-capstone.md) — team chemistry coursework with an individually documented catalyst condition.
+
+## Technical focus
+
+- **CAD and documentation:** SolidWorks coursework, dimensioned drawings, section and detail views.
+- **Hardware:** Arduino, enclosure packaging, electronics integration, assembly and prototype troubleshooting.
+- **Analysis:** measured temperature records, energy-balance assumptions and uncertainty interpretation.
+- **Supporting software:** Next.js, React, TypeScript and Supabase/PostgreSQL project context, with shared and AI-assisted contributions.
