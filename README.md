@@ -6,6 +6,8 @@ Boston University mechanical engineering student working on CAD and technical dr
 
 **Seeking Summer 2027 engineering internships.** Interests: robotics, manufacturing and automation.
 
+[Engineering Portfolio](https://engineering-portfolio-deploy.pages.dev/) · [Download Engineering Portfolio PDF](https://engineering-portfolio-deploy.pages.dev/downloads/Gabriel_Mukherjee_Engineering_Portfolio_2027.pdf)
+
 [LinkedIn](https://www.linkedin.com/in/gabriel-mukherjee/) · [Email](mailto:gabemuk@bu.edu) · [Software source](https://github.com/gabemuk/will-i-gap-it)
 
 [![Team optical-communication prototype beside a keyboard, with its LCD illuminated.](assets/optical-prototype.png)](projects/optical-communication.md)
